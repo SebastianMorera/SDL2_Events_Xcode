@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDE09F1926DC7849008CE5FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE09F1826DC7849008CE5FB /* AppDelegate.m */; };
+		CD6FF61626F97A5900EDA158 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6FF61526F97A5900EDA158 /* SDL2.framework */; };
+		CD6FF61726F97A5900EDA158 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD6FF61526F97A5900EDA158 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD6FF61926F97A7D00EDA158 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6FF61826F97A7D00EDA158 /* SDL2_image.framework */; };
 		CDE09F1B26DC784B008CE5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE09F1A26DC784B008CE5FB /* Assets.xcassets */; };
-		CDE09F1E26DC784B008CE5FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE09F1C26DC784B008CE5FB /* MainMenu.xib */; };
-		CDE09F2126DC784B008CE5FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE09F2026DC784B008CE5FB /* main.m */; };
+		CDE09F2926DC7A75008CE5FB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CDE09F2826DC7A75008CE5FB /* main.c */; };
+		CDE09F3426DC7C31008CE5FB /* lac_en_montagne.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CDE09F3226DC7C30008CE5FB /* lac_en_montagne.bmp */; };
+		CDE09F3526DC7C31008CE5FB /* sapin.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE09F3326DC7C30008CE5FB /* sapin.png */; };
+		CDE09F3826DC7C42008CE5FB /* zozor.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CDE09F3626DC7C42008CE5FB /* zozor.bmp */; };
+		CDE09F3926DC7C42008CE5FB /* sdl_icone.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CDE09F3726DC7C42008CE5FB /* sdl_icone.bmp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CDE09F2E26DC7AEF008CE5FB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD6FF61726F97A5900EDA158 /* SDL2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CD6FF61526F97A5900EDA158 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		CD6FF61826F97A7D00EDA158 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_image.framework; sourceTree = "<group>"; };
 		CDE09F1426DC7849008CE5FB /* SDL_Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDL_Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDE09F1726DC7849008CE5FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CDE09F1826DC7849008CE5FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CDE09F1A26DC784B008CE5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDE09F1D26DC784B008CE5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CDE09F1F26DC784B008CE5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CDE09F2026DC784B008CE5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDE09F2226DC784B008CE5FB /* SDL_Events.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SDL_Events.entitlements; sourceTree = "<group>"; };
+		CDE09F2826DC7A75008CE5FB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CDE09F3226DC7C30008CE5FB /* lac_en_montagne.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = lac_en_montagne.bmp; path = Images/lac_en_montagne.bmp; sourceTree = SOURCE_ROOT; };
+		CDE09F3326DC7C30008CE5FB /* sapin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sapin.png; path = Images/sapin.png; sourceTree = SOURCE_ROOT; };
+		CDE09F3626DC7C42008CE5FB /* zozor.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = zozor.bmp; path = Images/zozor.bmp; sourceTree = SOURCE_ROOT; };
+		CDE09F3726DC7C42008CE5FB /* sdl_icone.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = sdl_icone.bmp; path = Images/sdl_icone.bmp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6FF61626F97A5900EDA158 /* SDL2.framework in Frameworks */,
+				CD6FF61926F97A7D00EDA158 /* SDL2_image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +62,10 @@
 		CDE09F0B26DC7849008CE5FB = {
 			isa = PBXGroup;
 			children = (
+				CDF5456226DF1DD1001EB866 /* Images */,
 				CDE09F1626DC7849008CE5FB /* SDL_Events */,
 				CDE09F1526DC7849008CE5FB /* Products */,
+				CDE09F2A26DC7AEF008CE5FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,15 +80,32 @@
 		CDE09F1626DC7849008CE5FB /* SDL_Events */ = {
 			isa = PBXGroup;
 			children = (
-				CDE09F1726DC7849008CE5FB /* AppDelegate.h */,
-				CDE09F1826DC7849008CE5FB /* AppDelegate.m */,
+				CDE09F2826DC7A75008CE5FB /* main.c */,
 				CDE09F1A26DC784B008CE5FB /* Assets.xcassets */,
-				CDE09F1C26DC784B008CE5FB /* MainMenu.xib */,
 				CDE09F1F26DC784B008CE5FB /* Info.plist */,
-				CDE09F2026DC784B008CE5FB /* main.m */,
 				CDE09F2226DC784B008CE5FB /* SDL_Events.entitlements */,
 			);
 			path = SDL_Events;
+			sourceTree = "<group>";
+		};
+		CDE09F2A26DC7AEF008CE5FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FF61826F97A7D00EDA158 /* SDL2_image.framework */,
+				CD6FF61526F97A5900EDA158 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDF5456226DF1DD1001EB866 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CDE09F3226DC7C30008CE5FB /* lac_en_montagne.bmp */,
+				CDE09F3326DC7C30008CE5FB /* sapin.png */,
+				CDE09F3726DC7C42008CE5FB /* sdl_icone.bmp */,
+				CDE09F3626DC7C42008CE5FB /* zozor.bmp */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,6 +118,7 @@
 				CDE09F1026DC7849008CE5FB /* Sources */,
 				CDE09F1126DC7849008CE5FB /* Frameworks */,
 				CDE09F1226DC7849008CE5FB /* Resources */,
+				CDE09F2E26DC7AEF008CE5FB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,8 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE09F3426DC7C31008CE5FB /* lac_en_montagne.bmp in Resources */,
 				CDE09F1B26DC784B008CE5FB /* Assets.xcassets in Resources */,
-				CDE09F1E26DC784B008CE5FB /* MainMenu.xib in Resources */,
+				CDE09F3826DC7C42008CE5FB /* zozor.bmp in Resources */,
+				CDE09F3526DC7C31008CE5FB /* sapin.png in Resources */,
+				CDE09F3926DC7C42008CE5FB /* sdl_icone.bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,23 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE09F2126DC784B008CE5FB /* main.m in Sources */,
-				CDE09F1926DC7849008CE5FB /* AppDelegate.m in Sources */,
+				CDE09F2926DC7A75008CE5FB /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CDE09F1C26DC784B008CE5FB /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDE09F1D26DC784B008CE5FB /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CDE09F2326DC784B008CE5FB /* Debug */ = {
@@ -268,9 +303,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_ENTITLEMENTS = SDL_Events/SDL_Events.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SDL_Events/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -286,9 +327,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_ENTITLEMENTS = SDL_Events/SDL_Events.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SDL_Events/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
